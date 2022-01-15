@@ -6,7 +6,7 @@ class Ui_Form(object):
                 self.close()
         def reque(self,lineEdit,lineEdit_2):
                 headers = { 
-                "apikey": "8a56cb10-7621-11ec-be40-0b10a0ea8e2d"}
+                "apikey": "Your-Api-key-from-zipcodebase.com"}
                 params = (
                 ("city",str(lineEdit)),
                 ("country",str(lineEdit_2)),
