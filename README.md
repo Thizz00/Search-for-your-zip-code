@@ -18,8 +18,8 @@
 \
 \
 \
-![alt text](zip1.png)
+![alt text](screen1.png)
 \
 \
 \
-![alt text](zip2.png)
+![alt text](screen2.png)
