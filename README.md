@@ -11,19 +11,10 @@ pip install requests
 ```
 
 ```python
-import requests
-
-headers = { 
-  "apikey": "YOUR-APIKEY"}
-
-params = (
-   ("city","Amsterdam"),
-   ("state_name","Noord-Holland"),
-   ("country","nl"),
-);
-
-response = requests.get('https://app.zipcodebase.com/api/v1/code/city', headers=headers, params=params);
-print(response.text)
+expression = "A String, that will be evaluated as Python code"
+globals = "Optional. A dictionary containing global parameters"
+locals = "Optional. A dictionary containing local parameters"
+eval(expression, globals, locals)
 ```
 
 
