@@ -4,6 +4,7 @@
 \
 \
 \
+
 ```python
 import requests
 
@@ -24,5 +25,5 @@ print(response.text)
 \
 \
 \
-![alt text](Zrzut ekranu 2022-06-28 203925.png)
+![alt text](screen.png)
 
