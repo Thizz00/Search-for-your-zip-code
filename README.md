@@ -1,12 +1,17 @@
 ```python
 import requests
+
 headers = { 
-                   "apikey": "Your-Api-key-from-zipcodebase.com"}
-                   params = (
-                   ("city",self.lineEdit.text()),
-                   ("country",self.lineEdit_2.text()),
-                   );
-                   response = requests.get('https://app.zipcodebase.com/api/v1/code/city', headers=headers, params=params);
+  "apikey": "YOUR-APIKEY"}
+
+params = (
+   ("city","Amsterdam"),
+   ("state_name","Noord-Holland"),
+   ("country","nl"),
+);
+
+response = requests.get('https://app.zipcodebase.com/api/v1/code/city', headers=headers, params=params);
+print(response.text)
 ```
 \
 \
