@@ -2,7 +2,7 @@
 # [Zip Code API](https://zipcodebase.com)
 
 \
-\
+![alt text](screen.png)
 \
 \
 
@@ -22,10 +22,5 @@ params = (
 response = requests.get('https://app.zipcodebase.com/api/v1/code/city', headers=headers, params=params);
 print(response.text)
 ```
-\
-\
-\
-\
-\
-![alt text](screen.png)
+
 
