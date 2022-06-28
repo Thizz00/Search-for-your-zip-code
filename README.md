@@ -5,7 +5,10 @@
 ![alt text](screen.png)
 \
 \
-
+```
+pip install PyQt5
+pip install requests
+```
 
 ```python
 import requests
