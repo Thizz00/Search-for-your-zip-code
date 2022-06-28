@@ -1,18 +1,13 @@
-# ZipCode
-## How to use the app
-\
-\
-**1.In the first line of the line you enter the city for which you want to find a postal code.**
-\
-\
-\
-\
-**2.On the second line you enter the abbreviation of the country in which the city you specified is located, for example PL which stands for Poland.**
-\
-\
-\
-\
-**3.The relevant zip code is found using an API from the zipcodebase website.**
+```python
+import requests
+headers = { 
+                   "apikey": "Your-Api-key-from-zipcodebase.com"}
+                   params = (
+                   ("city",self.lineEdit.text()),
+                   ("country",self.lineEdit_2.text()),
+                   );
+                   response = requests.get('https://app.zipcodebase.com/api/v1/code/city', headers=headers, params=params);
+```
 \
 \
 \
