@@ -18,7 +18,7 @@
 \
 \
 \
-![alt text](screen1.png)
+![alt text](Zrzut ekranu 2022-06-28 203925.png)
 \
 \
 \
